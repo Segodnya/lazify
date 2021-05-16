@@ -1,5 +1,13 @@
+body {
+    background: purple;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
 .tags {
 }
+
 .tags span {
 	border: 1px solid #000;
 	display: inline-block;
@@ -8,10 +16,12 @@
 	cursor: pointer;
 	transition: 0.5s ease
 }
+
 .tags span:hover {
 	color: #ffffff;
 	background-color: #222;
 }
+
 .tags span.active {
 	color: #ffffff;
 	background-color: #222;
