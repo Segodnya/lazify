@@ -37,7 +37,7 @@ function showLink() {
 			var randomLink = arLinks[Math.floor(Math.random()*arLinks.length)]; // выбирает 1 элемент из всего массива.
 			console.log(randomLink); // позакать в консоли
 
-			window.open(randomLink, "_blank"); // открыть в том же окне, если в новом тогда "_self" меняем на "_blank", путь ссылки должен быть полный, меняется в файле tags.js
+			window.open(randomLink, "_self"); // открыть в том же окне, если в новом тогда "_self" меняем на "_blank", путь ссылки должен быть полный, меняется в файле tags.js
 		}
 	};
 };
