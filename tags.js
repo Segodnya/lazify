@@ -1,5 +1,6 @@
 let tags = {
     "alternative" : {
+        "title" : "alternative",
         "links" : [
             "https://sptfy.com/5hR9",
             "https://sptfy.com/dG9J",
@@ -15,6 +16,7 @@ let tags = {
             "https://sptfy.com/hH2O",
             "https://sptfy.com/duTK",
             "https://sptfy.com/5aP2",
+            "https://sptfy.com/a5Xw",
             "https://sptfy.com/9oXn",
             "https://sptfy.com/e9wQ",
             "https://sptfy.com/5ezs",
@@ -22,10 +24,12 @@ let tags = {
             "https://sptfy.com/9s4p",
             "https://sptfy.com/5ijV",
             "https://sptfy.com/5tut",
+            "https://sptfy.com/ivLQ",
         ],
     },
     
     "ambient" : {
+        "title" : "ambient",
         "links" : [
             "https://sptfy.com/hSiJ",
             "https://sptfy.com/9u1m",
@@ -34,6 +38,7 @@ let tags = {
     },
     
     "atmospheric" : {
+        "title" : "atmospheric",
         "links" : [
             "https://sptfy.com/9u1m",
             "https://sptfy.com/dGaU",
@@ -46,6 +51,7 @@ let tags = {
     },
     
     "battle" : {
+        "title" : "battle",
         "links" : [
             "https://sptfy.com/9u0y",
             "https://sptfy.com/9u1o",
@@ -55,6 +61,7 @@ let tags = {
     },
     
     "black" : {
+        "title" : "black",
         "links" : [
             "https://sptfy.com/9u0o",
             "https://sptfy.com/hSiG",
@@ -62,6 +69,7 @@ let tags = {
             "https://sptfy.com/9u1h",
             "https://sptfy.com/9u1i",
             "https://sptfy.com/9u1k",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/9u1m",
             "https://sptfy.com/9u1p",
             "https://sptfy.com/9u1x",
@@ -85,6 +93,7 @@ let tags = {
     },
     
     "blues" : {
+        "title" : "blues",
         "links" : [
             "https://sptfy.com/hSiX",
             "https://sptfy.com/9Xg8",
@@ -92,6 +101,7 @@ let tags = {
     },
     
     "british" : {
+        "title" : "british",
         "links" : [
             "https://sptfy.com/9u0E",
             "https://sptfy.com/hSiW",
@@ -100,6 +110,7 @@ let tags = {
     },
     
     "celtic" : {
+        "title" : "celtic",
         "links" : [
             "https://sptfy.com/hSiJ",
             "https://sptfy.com/5hTb",
@@ -108,13 +119,16 @@ let tags = {
     },
     
     "christian" : {
+        "title" : "christian",
         "links" : [
             "https://sptfy.com/9u1N",
             "https://sptfy.com/5c6y",
+            "https://sptfy.com/ej5K",
         ],
     },
     
     "classic-rock" : {
+        "title" : "classic-rock",
         "links" : [
             "https://sptfy.com/hSiX",
             "https://sptfy.com/9u1g",
@@ -125,6 +139,7 @@ let tags = {
     },
     
     "death" : {
+        "title" : "death",
         "links" : [
             "https://sptfy.com/9u0k",
             "https://sptfy.com/9u0P",
@@ -145,6 +160,7 @@ let tags = {
     },
     
     "deathcore" : {
+        "title" : "deathcore",
         "links" : [
             "https://sptfy.com/9u1C",
             "https://sptfy.com/9u21",
@@ -153,6 +169,7 @@ let tags = {
     },
     
     "doom" : {
+        "title" : "doom",
         "links" : [
             "https://sptfy.com/9u0i",
             "https://sptfy.com/9u0k",
@@ -176,6 +193,7 @@ let tags = {
     },
     
     "dwarf-pirate" : {
+        "title" : "dwarf-pirate",
         "links" : [
             "https://sptfy.com/hSiY",
             "https://sptfy.com/dGaT",
@@ -185,15 +203,17 @@ let tags = {
     },
     
     "emo-core" : {
+        "title" : "emo-core",
         "links" : [
             "https://sptfy.com/9u0d",
             "https://sptfy.com/9iKO",
         ],
     },
     
-	"epic" : {
-		"links" : [
-			"https://sptfy.com/5hR7",
+    "epic" : {
+        "title" : "epic",
+        "links" : [
+            "https://sptfy.com/5hR7",
             "https://sptfy.com/9u0u",
             "https://sptfy.com/9u0x",
             "https://sptfy.com/9u1p",
@@ -203,10 +223,11 @@ let tags = {
             "https://sptfy.com/9ivQ",
             "https://sptfy.com/dIdQ",
             "https://sptfy.com/5oD8",
-		],
-	},
+        ],
+    },
     
     "euro-dance" : {
+        "title" : "euro-dance",
         "links" : [
             "https://sptfy.com/9u1f",
             "https://sptfy.com/9u1w",
@@ -220,16 +241,19 @@ let tags = {
     },
     
     "extreme" : {
+        "title" : "extreme",
         "links" : [
             "https://sptfy.com/9u0P",
             "https://sptfy.com/dG9X",
             "https://sptfy.com/9u1s",
+            "https://sptfy.com/ej5K",
             "https://sptfy.com/hSjJ",
             "https://sptfy.com/5hT9",
         ],
     },
     
     "female" : {
+        "title" : "female",
         "links" : [
             "https://sptfy.com/9u0n",
             "https://sptfy.com/hSiO",
@@ -266,9 +290,10 @@ let tags = {
         ],
     },
 
-	"folk" : {
-		"links" : [
-			"https://sptfy.com/5hR7",
+    "folk" : {
+        "title" : "folk",
+        "links" : [
+            "https://sptfy.com/5hR7",
             "https://sptfy.com/9u0t",
             "https://sptfy.com/9u0x",
             "https://sptfy.com/hSiG",
@@ -300,16 +325,19 @@ let tags = {
             "https://sptfy.com/iaBd",
             "https://sptfy.com/icnJ",
             "https://sptfy.com/e38A",
-		],
-	},
+            "https://sptfy.com/ej6w",
+        ],
+    },
     
     "garage" : {
+        "title" : "garage",
         "links" : [
             "https://sptfy.com/hSiQ",
         ],
     },
     
     "gothic" : {
+        "title" : "gothic",
         "links" : [
             "https://sptfy.com/9u0i",
             "https://sptfy.com/hSjU",
@@ -338,6 +366,7 @@ let tags = {
     },
     
     "groove" : {
+        "title" : "groove",
         "links" : [
             "https://sptfy.com/9u1v",
             "https://sptfy.com/9u1Z",
@@ -347,17 +376,20 @@ let tags = {
     },
     
     "grunge" : {
+        "title" : "grunge",
         "links" : [
             "https://sptfy.com/5tut",
         ],
     },
     
     "hardcore" : {
+        "title" : "hardcore",
         "links" : [
             "https://sptfy.com/hSjZ",
             "https://sptfy.com/dGb0",
             "https://sptfy.com/duTR",
             "https://sptfy.com/duTK",
+            "https://sptfy.com/ej5K",
             "https://sptfy.com/5j48",
             "https://sptfy.com/9w70",
             "https://sptfy.com/5urr",
@@ -366,10 +398,13 @@ let tags = {
     },
     
     "hard-rock" : {
+        "title" : "hard-rock",
         "links" : [
             "https://sptfy.com/dGaO",
             "https://sptfy.com/9u1N",
             "https://sptfy.com/5hhl",
+            "https://sptfy.com/iugS",
+            "https://sptfy.com/a5Xw",
             "https://sptfy.com/efQC",
             "https://sptfy.com/qlqW",
             "https://sptfy.com/5uvt",
@@ -377,16 +412,19 @@ let tags = {
     },
     
     "heavy" : {
+        "title" : "heavy",
         "links" : [
             "https://sptfy.com/9u0f",
             "https://sptfy.com/9u0y",
             "https://sptfy.com/9u1g",
             "https://sptfy.com/hH2U",
+            "https://sptfy.com/iugS",
             "https://sptfy.com/dzOO",
             "https://sptfy.com/hNfp",
             "https://sptfy.com/5du4",
             "https://sptfy.com/9s4r",
             "https://sptfy.com/5hhp",
+            "https://sptfy.com/a5Xw",
             "https://sptfy.com/5hhk",
             "https://sptfy.com/eb6p",
             "https://sptfy.com/9u2g",
@@ -401,12 +439,14 @@ let tags = {
     },
     
     "indie" : {
+        "title" : "indie",
         "links" : [
             "https://sptfy.com/9u0E",
         ],
     },
     
     "industrial" : {
+        "title" : "industrial",
         "links" : [
             "https://sptfy.com/9u0z",
             "https://sptfy.com/9u0A",
@@ -418,6 +458,7 @@ let tags = {
     },
     
     "instrumental" : {
+        "title" : "instrumental",
         "links" : [
             "https://sptfy.com/hSiJ",
             "https://sptfy.com/56p3",
@@ -425,18 +466,21 @@ let tags = {
     },
     
     "medieval" : {
+        "title" : "medieval",
         "links" : [
             "https://sptfy.com/9u20",
         ],
     },
     
     "melancholic" : {
+        "title" : "melancholic",
         "links" : [
             "https://sptfy.com/9ydT",
         ],
     },
     
     "melodic" : {
+        "title" : "melodic",
         "links" : [
             "https://sptfy.com/9u1p",
             "https://sptfy.com/dGb0",
@@ -460,6 +504,7 @@ let tags = {
     },
     
     "melodic-death" : {
+        "title" : "melodic-death",
         "links" : [
             "https://sptfy.com/5hR8",
             "https://sptfy.com/5hR9",
@@ -470,6 +515,7 @@ let tags = {
             "https://sptfy.com/9u0u",
             "https://sptfy.com/9u0x",
             "https://sptfy.com/9u0y",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/9u0A",
             "https://sptfy.com/hSiG",
             "https://sptfy.com/dG9F",
@@ -523,20 +569,24 @@ let tags = {
             "https://sptfy.com/e0ed",
             "https://sptfy.com/a4fR",
             "https://sptfy.com/e38A",
+            "https://sptfy.com/ej6w",
         ],
     },
 
-	"metal" : {
-		"links" : [
-			"https://sptfy.com/5hR7",
+    "metal" : {
+        "title" : "metal",
+        "links" : [
+            "https://sptfy.com/5hR7",
             "https://sptfy.com/e44a",
             "https://sptfy.com/5hR8",
             "https://sptfy.com/5hR9",
             "https://sptfy.com/9Xg4",
             "https://sptfy.com/a2d7",
             "https://sptfy.com/ed3S",
+            "https://sptfy.com/iugS",
             "https://sptfy.com/a4fR",
             "https://sptfy.com/5R2p",
+            "https://sptfy.com/ej6w",
             "https://sptfy.com/ec1d",
             "https://sptfy.com/9u0c",
             "https://sptfy.com/9u0f",
@@ -550,6 +600,7 @@ let tags = {
             "https://sptfy.com/9u0o",
             "https://sptfy.com/9u0q",
             "https://sptfy.com/9TE5",
+            "https://sptfy.com/a5Xw",
             "https://sptfy.com/9u0s",
             "https://sptfy.com/9u0t",
             "https://sptfy.com/9u0u",
@@ -557,6 +608,7 @@ let tags = {
             "https://sptfy.com/9u0y",
             "https://sptfy.com/9u0z",
             "https://sptfy.com/9u0A",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/9u0B",
             "https://sptfy.com/hSiG",
             "https://sptfy.com/dG9F",
@@ -702,10 +754,11 @@ let tags = {
             "https://sptfy.com/icnJ",
             "https://sptfy.com/ie8u",
             "https://sptfy.com/e38A",
-		],
-	},
+        ],
+    },
     
     "metalcore" : {
+        "title" : "metalcore",
         "links" : [
             "https://sptfy.com/5hR9",
             "https://sptfy.com/9u0l",
@@ -713,6 +766,7 @@ let tags = {
             "https://sptfy.com/e7Bi",
             "https://sptfy.com/9u12",
             "https://sptfy.com/9u1q",
+            "https://sptfy.com/ej5K",
             "https://sptfy.com/9u1C",
             "https://sptfy.com/hSjJ",
             "https://sptfy.com/hSjN",
@@ -737,6 +791,7 @@ let tags = {
     },
     
     "modern" : {
+        "title" : "modern",
         "links" : [
             "https://sptfy.com/5hR9",
             "https://sptfy.com/9u0A",
@@ -749,6 +804,7 @@ let tags = {
     },
     
     "new2019" : {
+        "title" : "new2019",
         "links" : [
             "https://sptfy.com/5hR9",
             "https://sptfy.com/9u0c",
@@ -817,6 +873,7 @@ let tags = {
     },
     
     "new2020" : {
+        "title" : "new2020",
         "links" : [
             "https://sptfy.com/9u1o",
             "https://sptfy.com/9u1s",
@@ -827,12 +884,14 @@ let tags = {
             "https://sptfy.com/hSjJ",
             "https://sptfy.com/ec1d",
             "https://sptfy.com/hSjM",
+            "https://sptfy.com/a5Xw",
             "https://sptfy.com/hSjN",
             "https://sptfy.com/dGaM",
             "https://sptfy.com/hSjP",
             "https://sptfy.com/dGaO",
             "https://sptfy.com/9u1N",
             "https://sptfy.com/hSjS",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/hSjT",
             "https://sptfy.com/hSjU",
             "https://sptfy.com/dGaT",
@@ -924,11 +983,13 @@ let tags = {
     },
     
     "new2021" : {
+        "title" : "new2021",
         "links" : [
             "https://sptfy.com/5ocH",
             "https://sptfy.com/qnXQ",
             "https://sptfy.com/5q3g",
             "https://sptfy.com/5r48",
+            "https://sptfy.com/iugS",
             "https://sptfy.com/5r65",
             "https://sptfy.com/5tut",
             "https://sptfy.com/e9wQ",
@@ -952,10 +1013,14 @@ let tags = {
             "https://sptfy.com/ie8u",
             "https://sptfy.com/e38A",
             "https://sptfy.com/e44a",
+            "https://sptfy.com/ivLQ",
+            "https://sptfy.com/ej6w",
+            "https://sptfy.com/ej5K",
         ],
     },
     
     "nu" : {
+        "title" : "nu",
         "links" : [
             "https://sptfy.com/duTK",
             "https://sptfy.com/5aP2",
@@ -963,6 +1028,7 @@ let tags = {
     },
     
     "opera" : {
+        "title" : "opera",
         "links" : [
             "https://sptfy.com/9u1p",
             "https://sptfy.com/qnXQ",
@@ -970,10 +1036,12 @@ let tags = {
     },
     
     "pagan" : {
+        "title" : "pagan",
         "links" : [
             "https://sptfy.com/dG9F",
             "https://sptfy.com/5c6z",
             "https://sptfy.com/5hTb",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/i0aq",
             "https://sptfy.com/i0fL",
             "https://sptfy.com/5rwo",
@@ -981,12 +1049,14 @@ let tags = {
     },
     
     "political" : {
+        "title" : "political",
         "links" : [
             "https://sptfy.com/9s4p",
         ],
     },
     
     "pop" : {
+        "title" : "pop",
         "links" : [
             "https://sptfy.com/9u0E",
             "https://sptfy.com/hSiW",
@@ -997,10 +1067,12 @@ let tags = {
             "https://sptfy.com/5e1v",
             "https://sptfy.com/hT6R",
             "https://sptfy.com/9vDD",
+            "https://sptfy.com/ivLQ",
         ],
     },
     
     "post-hardcore" : {
+        "title" : "post-hardcore",
         "links" : [
             "https://sptfy.com/9u0d",
             "https://sptfy.com/9iKO",
@@ -1010,9 +1082,10 @@ let tags = {
         ],
     },
 
-	"power" : {
-		"links" : [
-			"https://sptfy.com/5hR7",
+    "power" : {
+        "title" : "power",
+        "links" : [
+            "https://sptfy.com/5hR7",
             "https://sptfy.com/9u0f",
             "https://sptfy.com/9u0h",
             "https://sptfy.com/9u0n",
@@ -1020,6 +1093,7 @@ let tags = {
             "https://sptfy.com/9u0B",
             "https://sptfy.com/hSiY",
             "https://sptfy.com/dG9X",
+            "https://sptfy.com/iugS",
             "https://sptfy.com/dGa0",
             "https://sptfy.com/9u1d",
             "https://sptfy.com/9u1f",
@@ -1064,10 +1138,11 @@ let tags = {
             "https://sptfy.com/5uvt",
             "https://sptfy.com/icnJ",
             "https://sptfy.com/e44a",
-		],
-	},
+        ],
+    },
     
     "progressive" : {
+        "title" : "progressive",
         "links" : [
             "https://sptfy.com/9u0u",
             "https://sptfy.com/9u1m",
@@ -1087,6 +1162,7 @@ let tags = {
     },
     
     "punk" : {
+        "title" : "punk",
         "links" : [
             "https://sptfy.com/hSiQ",
             "https://sptfy.com/duTR",
@@ -1100,13 +1176,22 @@ let tags = {
     },
     
     "rapcore" : {
+        "title" : "rapcore",
         "links" : [
             "https://sptfy.com/hH2O",
             "https://sptfy.com/5aP2",
         ],
     },
     
+    "remaster" : {
+        "title" : "remaster",
+        "links" : [
+            "https://sptfy.com/ej5K",
+        ],
+    },
+    
     "rock" : {
+        "title" : "rock",
         "links" : [
             "https://sptfy.com/9u0E",
             "https://sptfy.com/dG9J",
@@ -1144,25 +1229,29 @@ let tags = {
             "https://sptfy.com/5q3g",
             "https://sptfy.com/5tut",
             "https://sptfy.com/i58n",
+            "https://sptfy.com/ivLQ",
         ],
     },
     
     "ska" : {
+        "title" : "ska",
         "links" : [
             "https://sptfy.com/9vDD",
         ],
     },
 
-	"spanish" : {
-		"links" : [
-			"https://sptfy.com/5hR7",
+    "spanish" : {
+        "title" : "spanish",
+        "links" : [
+            "https://sptfy.com/5hR7",
             "https://sptfy.com/9u0i",
             "https://sptfy.com/9n6u",
             "https://sptfy.com/a4fR",
-		],
-	},
+        ],
+    },
     
     "speed" : {
+        "title" : "speed",
         "links" : [
             "https://sptfy.com/dG9X",
             "https://sptfy.com/hSjJ",
@@ -1175,6 +1264,7 @@ let tags = {
     },
     
     "symphonic" : {
+        "title" : "symphonic",
         "links" : [
             "https://sptfy.com/9u0h",
             "https://sptfy.com/9u0o",
@@ -1214,6 +1304,7 @@ let tags = {
     },
     
     "technical" : {
+        "title" : "technical",
         "links" : [
             "https://sptfy.com/hSjS",
             "https://sptfy.com/hSjZ",
@@ -1223,6 +1314,7 @@ let tags = {
     },
     
     "thrash" : {
+        "title" : "thrash",
         "links" : [
             "https://sptfy.com/5hS2",
             "https://sptfy.com/9u1d",
@@ -1244,6 +1336,7 @@ let tags = {
     },
     
     "throwback" : {
+        "title" : "throwback",
         "links" : [
             "https://sptfy.com/5hR7",
             "https://sptfy.com/5hR8",
@@ -1262,6 +1355,7 @@ let tags = {
     },
     
     "trance/dnb" : {
+        "title" : "trance/dnb",
         "links" : [
             "https://sptfy.com/9u0A",
             "https://sptfy.com/ec1d",
@@ -1269,6 +1363,7 @@ let tags = {
     },
     
     "viking" : {
+        "title" : "viking",
         "links" : [
             "https://sptfy.com/9u0y",
             "https://sptfy.com/dG9F",
@@ -1286,6 +1381,7 @@ let tags = {
             "https://sptfy.com/5oD8",
             "https://sptfy.com/i0aq",
             "https://sptfy.com/5r48",
+            "https://sptfy.com/ej6w",
         ],
     },
 

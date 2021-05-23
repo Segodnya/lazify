@@ -1,28 +1,29 @@
 body {
-    background: purple;
+    background: black;
     color: white;
     font-family: Verdana;
     text-align: center;
 }
 
-.tags {
-}
-
-.tags span {
+.tags2 span {
 	border: 1px solid #000;
+    background: purple;
 	display: inline-block;
-	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
 	transition: 0.5s ease
 }
-
-.tags span:hover {
+.tags2 span:hover {
+	color: #ffffff;
+	background-color: #222;
+}
+.tags2 span.active {
 	color: #ffffff;
 	background-color: #222;
 }
 
-.tags span.active {
-	color: #ffffff;
-	background-color: #222;
+
+.tag {
+	font-size: 12px;
+	padding: 5px;
 }

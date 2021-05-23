@@ -1,43 +1,40 @@
-let buttonTags = document.querySelectorAll(".tag");
+let tags2 = document.querySelector(".tags2");
 
-// Добавляет и убирает класс .active к выбранному тегу
-buttonTags.forEach(function(element) {
-	element.onclick = addActive; // перебирает все теги и ждет клика, как ток будет клик по одному из элементов сразу начнет выполняться функция addActive
-});
+// Вывести библиотеку, создать новый спан, внутри написать title из библиотеки, добавить класс tag для общей стилизации, можно так же добавить каждому свой уникальный класс на примере data-tag. ниже добавляем атрибут data-tag со значениями Object.keys(tags)[i](rock, electro и тд) и последнее помещаем внутрь tags2 наши спаны.
+for(let i = 0; i < Object.keys(tags).length; i++) {
+	console.log(Object.keys(tags)[i]);
+	let newSpan = document.createElement("span");
+	newSpan.innerHTML = tags[Object.keys(tags)[i]]["title"];
+	newSpan.classList.add("tag");
+	newSpan.setAttribute("data-tag", Object.keys(tags)[i]);
+	tags2.appendChild(newSpan);
 
-function addActive() { // функция которая перебирает все теги, и сначала удаляет у каждого тега класс active, затем добавляет active тегу по которому кликнули.
-	buttonTags.forEach(function(element) { // тут убирает
-		element.classList.remove("active");
-	});
-	this.classList.add("active"); // тут добавляет
+	//Как получить длину массива
+	console.log(Object(tags[Object.keys(tags)[i]]["links"]).length)
+
+	// Меняет отступы и размер шрифта, в зависимости от длины массива
+    newSpan.style.fontSize = `${12 + (Object(tags[Object.keys(tags)[i]]["links"]).length*0.4)}px`;
+    newSpan.style.padding = `${5 + (Object(tags[Object.keys(tags)[i]]["links"]).length*0.2)}px`;
+
 }
-//конец.
 
+let buttonTags2 = document.querySelectorAll(".tag");
 
-//ниже по клику выполняем функцию showLink, описание ниже.
-buttonTags.forEach(function(element) {
+buttonTags2.forEach(function(element) {
 	element.onclick = showLink;
 });
 
-//showLink - выполняет то что мы задумывали, далее каждую строчку подробнее.
+//тут все так же как было, ничего не менял.
 function showLink() {
-	let tagDate = this.dataset.tag; //tagDate - получает data-tag тега по которму мы кликнули.
-
-	// console.log(tagDate)
-
-	// console.log(Object.keys(tags))
-
-	// перебираем наш объект tags, который мы формируем в файле tags.js . 
+	let tagDate = this.dataset.tag;
 	for(let i = 0; i < Object.keys(tags).length; i++) {
-		//ниже "Если tags[i] ровно data-tag нашей кнопки, тогда выполняем следующее... (что такое tags[i] можно понять если раскоментить console.log(Object.keys(tags)) "
 		if (Object.keys(tags)[i] == tagDate) {
 			let arLinks = Object(tags[Object.keys(tags)[i]]["links"]);
-			// тут получаю массив ссылок из объекта, на самом деле эту строку получил методом тыка, сначала было просто Object.keys(tags)[i], но мы только Объект рока например, потом можно было еще раз полученный результат обернуть объектом, но я сделал все в 1 строке
-			// console.log(arLinks);
-			var randomLink = arLinks[Math.floor(Math.random()*arLinks.length)]; // выбирает 1 элемент из всего массива.
-			console.log(randomLink); // позакать в консоли
+			var randomLink = arLinks[Math.floor(Math.random()*arLinks.length)];
+			console.log(randomLink);
 
-			window.open(randomLink, "_self"); // открыть в том же окне, если в новом тогда "_self" меняем на "_blank", путь ссылки должен быть полный, меняется в файле tags.js
+            window.open(randomLink, "_self"); // открыть в том же окне, если в новом тогда "_self" меняем на "_blank", путь ссылки должен быть полный, меняется в файле tags.js
+
 		}
 	};
 };
