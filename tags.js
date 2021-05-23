@@ -146,6 +146,7 @@ let tags = {
             "https://sptfy.com/9u1x",
             "https://sptfy.com/hSjP",
             "https://sptfy.com/hSjS",
+            "https://sptfy.com/a69s",
             "https://sptfy.com/hSjU",
             "https://sptfy.com/hSjZ",
             "https://sptfy.com/9u21",
